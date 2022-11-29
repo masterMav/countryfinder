@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <div className="content">
+        <div className="container">
           <Switch>
             <Route exact path="/">
               <Home />
