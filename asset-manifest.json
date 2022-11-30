@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/countryfinder/static/css/main.dd0381e0.css",
+    "main.js": "/countryfinder/static/js/main.200b148d.js",
+    "index.html": "/countryfinder/index.html",
+    "main.dd0381e0.css.map": "/countryfinder/static/css/main.dd0381e0.css.map",
+    "main.200b148d.js.map": "/countryfinder/static/js/main.200b148d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd0381e0.css",
+    "static/js/main.200b148d.js"
+  ]
+}
