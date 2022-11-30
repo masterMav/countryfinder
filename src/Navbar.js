@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item me-3">
-                <Link to="/lang" className="nav-link">
+                <Link to="/" className="nav-link">
                   Find by language
                 </Link>
               </li>

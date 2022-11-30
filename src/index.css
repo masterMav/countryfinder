@@ -54,3 +54,10 @@ code {
     margin: auto;
   }
 }
+
+/* Footer */
+footer {
+  color: #777;
+  text-align: center;
+  margin: 80px auto 20px;
+}
