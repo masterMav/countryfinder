@@ -2,21 +2,21 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import NotFound from "./NotFound";
-import Lang from "./Lang";
 import Region from "./Region";
+import Search from "./Search";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
-        <div className="container">
+        <div className="nothing">
           <Switch>
             <Route exact path="/">
               <Home />
             </Route>
             <Route path="/lang">
-              <Lang />
+              <Search />
             </Route>
             <Route path="/region">
               <Region />

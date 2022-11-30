@@ -1,8 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Quicksand";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,4 +34,23 @@ code {
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   max-width: 400px;
   margin: auto;
+}
+
+/* Forms */
+.customForm {
+  width: 30%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .customForm {
+    width: 80%;
+    margin: auto;
+  }
+  .customCard {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 80%;
+    margin: auto;
+  }
 }

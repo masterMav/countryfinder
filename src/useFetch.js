@@ -26,7 +26,7 @@ const useFetch = (url) => {
             name: i.name.common,
             area: numberWithCommas(i.area),
             population: numberWithCommas(i.population),
-            capital: i.capital,
+            capital: i.capital ? i.capital[0] : null,
             subregion: i.subregion,
             flag: i.flags.png,
           };
