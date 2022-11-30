@@ -3,7 +3,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import NotFound from "./NotFound";
 import Region from "./Region";
-import Search from "./Search";
+import Lang from "./Lang";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
               <Home />
             </Route>
             <Route path="/lang">
-              <Search />
+              <Lang />
             </Route>
             <Route path="/region">
               <Region />
