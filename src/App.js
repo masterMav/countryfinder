@@ -11,10 +11,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/countryfinder/">
             <Lang />
           </Route>
-          <Route path="/region">
+          <Route path="/countryfinder/region">
             <Region />
           </Route>
           <Route path="*">
