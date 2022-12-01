@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="nothing">
       <nav className="navbar navbar-expand-md navbar-dark bg-dark m-0 p-0">
         <div className="container-fluid">
-          <Link to="/" className="navbar-brand">
+          <Link to="/countryfinder/" className="navbar-brand">
             <h2 className="m-0 p-0 pt-1">countryfinder</h2>
           </Link>
           <button
@@ -20,12 +20,12 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navmenu">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item me-3">
-                <Link to="/" className="nav-link">
+                <Link to="/countryfinder/" className="nav-link">
                   Find by language
                 </Link>
               </li>
               <li className="nav-item me-3">
-                <Link to="/region" className="nav-link">
+                <Link to="/countryfinder/region" className="nav-link">
                   Find by region
                 </Link>
               </li>
